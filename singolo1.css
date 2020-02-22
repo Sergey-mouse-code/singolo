@@ -88,13 +88,13 @@ ul {
 }
 
 .nav__link:hover {
-    color: #f06c64;
     transition: all 1s;
+    color: #f06c64;
 }
 
 .menu__list:not(:first-child) {
-    padding-left: 26px;
     position: relative;
+    padding-left: 26px;
 }
 
 .menu__list:not(:first-child)::before {
