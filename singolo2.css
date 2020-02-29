@@ -1,0 +1,211 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+li,
+p,
+span,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.porfolio {
+    padding-bottom: 70px;
+    background-color: #2d303a;
+    border: 6px solid #323746;
+}
+
+.portfolio__title {
+    padding-bottom: 22.8px;
+    font-size: 29.5px;
+    font-weight: 900;
+    letter-spacing: 0.26;
+    color: #666d89;
+}
+
+.portfolio__text {
+    margin-bottom: 14px;
+    font-size: 18px;
+    letter-spacing: 0;
+    word-spacing: 0;
+    font-weight: 300;
+    color: #767e9e;
+}
+
+.portfolio__buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 288px;
+}
+
+.button {
+    margin-bottom: 20px;
+    padding-top: 2px;
+    height: 22px;
+    border: 1px solid #666d89;
+    border-radius: 15%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0;
+    word-spacing: 0;
+    color: #767e9e;
+}
+
+.button:hover {
+    transition: all 1.2s;
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+    color: #dedede;
+}
+
+.portfolio__button1 {
+    width: 30px;
+}
+
+.portfolio__button2 {
+    width: 77px;
+}
+
+.portfolio__button3 {
+    width: 93px;
+}
+
+.portfolio__button4 {
+    margin-left: 0px;
+    width: 56px;
+}
+
+.portfolio__wrapper {
+    padding-top: 55.5px;
+}
+
+.portfolio__image-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-height: 602px;
+    margin-bottom: -5px;
+    overflow: hidden;
+}
+
+.portfolio__image {
+    width: 220px;
+    height: 187px;
+    margin-bottom: 20px;
+}
+
+.portfolio__image1 {
+    background-image: url(assets/images/porfolio/Image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image2 {
+    background-image: url(assets/images/porfolio/Image2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image3 {
+    background-image: url(assets/images/porfolio/Image3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image4 {
+    background-image: url(assets/images/porfolio/Image4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image5 {
+    background-image: url(assets/images/porfolio/Image5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image6 {
+    background-image: url(assets/images/porfolio/Image6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image7 {
+    background-image: url(assets/images/porfolio/Image7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image8 {
+    background-image: url(assets/images/porfolio/Image8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image9 {
+    background-image: url(assets/images/porfolio/Image9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image10 {
+    background-image: url(assets/images/porfolio/Image10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image11 {
+    background-image: url(assets/images/porfolio/Image11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__image12 {
+    background-image: url(assets/images/porfolio/Image12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
