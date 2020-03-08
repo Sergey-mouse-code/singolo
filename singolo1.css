@@ -132,7 +132,7 @@ ul {
     height: 27px;
     transform: translateY(-50.5%);
     cursor: pointer;
-    background-image: url(assets/images/arrow__pref.png)
+    background-image: url(assets/images/slider/arrow__pref.png)
 }
 
 .slider__inner::after {
@@ -144,7 +144,7 @@ ul {
     height: 27px;
     transform: translateY(-50.5%);
     cursor: pointer;
-    background-image: url(assets/images/arrow__next.png)
+    background-image: url(assets/images/slider/arrow__next.png)
 }
 
 .slide__image {
@@ -160,7 +160,7 @@ ul {
     position: absolute;
     width: 240px;
     height: 483px;
-    background-image: url(assets/images/Shadow.png);
+    background-image: url(assets/images/slider/Shadow.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,7 +172,7 @@ ul {
     width: 215px;
     height: 458px;
     border-radius: 27px;
-    background-image: url(assets/images/phone__base.jpg);
+    background-image: url(assets/images/slider/phone__base.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,7 +184,7 @@ ul {
     left: 14px;
     width: 188px;
     height: 333px;
-    background-image: url(assets/images/display.png);
+    background-image: url(assets/images/slider/display.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,7 +210,7 @@ ul {
     left: -63.5px;
     width: 333px;
     height: 188px;
-    background-image: url(assets/images/screen2.png);
+    background-image: url(assets/images/slider/screen2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
