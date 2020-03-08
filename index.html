@@ -200,11 +200,11 @@
             </div>
 
             <div class="contact">
-                <form action="/login" method="GET" id="form__send" class="contact__form">
-                    <input type="text" placeholder="Name (Required)" name="name" form="form__send"  pattern="/^[a-z ,.'-]+$/i" class="input__name" required>
-                    <input type="email" placeholder="Email (Required)" name="email" form="form__send" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"  class="input__email" required>
+                <form action="/login" method="POST" class="contact__form">
+                    <input type="text" placeholder="Name (Required)" name="name" minlength="6" maxlength="30" pattern="/^[a-z ,.'-]+$/i" required class="input__name">
+                    <input type="email" placeholder="Email (Required)" name="email" minlength="2" maxlength="15" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required class="input__email">
                     <input type="text" placeholder="subject" class="input__subject">
-                    <button type="submit" form="form__send" class="contact__submit">Send</button>
+                    <button type="submit" class="contact__submit">Send</button>
                     <textarea name="text" id="contact__text" cols="81" rows="12" placeholder="Describe your project in detail..." class="input__text"></textarea>
                 </form>
                 <div class="contact-information">
