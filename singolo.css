@@ -45,6 +45,12 @@ ul {
     margin: 0 auto;
 }
 
+.header {
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+    min-height: 95px;
+}
+
 .header__inner {
     display: flex;
     justify-content: space-between;
