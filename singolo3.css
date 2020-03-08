@@ -218,3 +218,65 @@ ul {
     height: 8px;
     background-image: url(assets/images/contact__us/mail.png);
 }
+
+.footer {
+    background-color: #2d303a;
+}
+
+.copyright__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.copyright__text {
+    padding: 4.5px 0 0 2px;
+    font-size: 12px;
+    line-height: 21.56px;
+    letter-spacing: -0.1px;
+    color: #5e657e;
+}
+
+.socilal-icons>div {
+    display: inline-block;
+}
+
+.social__icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #50556a;
+    border-radius: 50%;
+}
+
+.social__icon:hover {
+    border: 4px solid #e87675;
+    transition: all 1.1s ease-in-out;
+}
+
+.social__icon1 {
+    background-image: url(assets/images/footer/icon1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.social__icon2 {
+    margin-left: 7px;
+    background-image: url(assets/images/footer/icon2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.social__icon3 {
+    margin-left: 5.5px;
+    background-image: url(assets/images/footer/icon3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.social__icon4 {
+    margin: 0 1px 0 2px;
+    background-image: url(assets/images/footer/icon4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
